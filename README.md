@@ -18,3 +18,12 @@ Endpoints para teste:
 - GET: http://course-javatest.herokuapp.com/users (ou /id do usuário para filtrar um único usuário)
 
 - DELETE: http://course-javatest.herokuapp.com/users/1 (id do usuário)
+
+* Guia de instalação do Ruby:
+- Linux: https://medium.com/qaninja/como-instalar-ruby-com-rbenv-no-ubuntu-a75d1999362b
+- Windows: https://medium.com/qaninja/instalando-ruby-cucumber-e-capybara-no-windows-10-acb1fe833a95
+- Mac: Te vira, playboy!
+
+Depois de instalar o ruby, executar o comando 'bundle install' pelo terminal da pasta onde está o arquivo Gemfile, pois é neste que se encontram as dependências do projeto.
+
+Enjoy!

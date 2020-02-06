@@ -24,6 +24,6 @@ Endpoints para teste:
 - Windows: https://medium.com/qaninja/instalando-ruby-cucumber-e-capybara-no-windows-10-acb1fe833a95
 - Mac: Te vira, playboy!
 
-Depois de instalar or ruby, executar o comando 'bundle install' da pasta onde está o arquivo Gemfile, pois é neste que se encontram as dependências do projeto.
+Depois de instalar o ruby, executar o comando 'bundle install' pelo terminal da pasta onde está o arquivo Gemfile, pois é neste que se encontram as dependências do projeto.
 
 Enjoy!

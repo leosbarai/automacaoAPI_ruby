@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="11" skipped="0" failures="3" errors="0" time="41.038862" timestamp="2020-02-06T14:05:35-03:00" hostname="dxt-000772">
+<properties>
+<property name="seed" value="10648"/>
+</properties>
+<testcase classname="spec.delete_usuarios_spec" name="Delete Excluir um usuário Requisição válida" file="./spec/delete_usuarios_spec.rb" time="34.128581"><failure message="
+expected: &quot;204&quot;
+     got: &quot;404&quot;
+
+(compared using eql?)
+" type="RSpec::Expectations::ExpectationNotMetError">Failure/Error: expect(result.response.code).to eql &quot;204&quot;
+
+  expected: &quot;204&quot;
+       got: &quot;404&quot;
+
+  (compared using eql?)
+./spec/delete_usuarios_spec.rb:6:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="spec.delete_usuarios_spec" name="Delete Excluir um usuário Requisição inválida" file="./spec/delete_usuarios_spec.rb" time="0.556873"></testcase>
+<testcase classname="spec.get_usuarios_spec" name="GET CADASTRO: Retorna Usuários Retorna lista de usuários is expected to eql &quot;200&quot;" file="./spec/get_usuarios_spec.rb" time="0.900759"></testcase>
+<testcase classname="spec.get_usuarios_spec" name="GET CADASTRO: Retorna Usuários Retorna lista de usuários Requisição Válida" file="./spec/get_usuarios_spec.rb" time="0.571647"></testcase>
+<testcase classname="spec.get_usuarios_spec" name="GET CADASTRO: Retorna Usuários Retorna usuário por id Requisição Válida" file="./spec/get_usuarios_spec.rb" time="0.555944"><failure message="
+expected: &quot;200&quot;
+     got: &quot;404&quot;
+
+(compared using eql?)
+" type="RSpec::Expectations::ExpectationNotMetError">Failure/Error: expect(result.response.code).to eql &quot;200&quot;
+
+  expected: &quot;200&quot;
+       got: &quot;404&quot;
+
+  (compared using eql?)
+./spec/get_usuarios_spec.rb:16:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="spec.get_usuarios_spec" name="GET CADASTRO: Retorna Usuários Retorna usuário por id Validação do id do usuário" file="./spec/get_usuarios_spec.rb" time="0.546030"><failure message="
+expected: 10
+     got: nil
+
+(compared using eql?)
+" type="RSpec::Expectations::ExpectationNotMetError">Failure/Error: expect(result.parsed_response[&quot;id&quot;]).to eql 10
+
+  expected: 10
+       got: nil
+
+  (compared using eql?)
+./spec/get_usuarios_spec.rb:20:in `block (3 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+<testcase classname="spec.post_usuarios_spec" name="POST CADASTRO: Cadastra Usuários Cadastra novo usuários Requisição Válida" file="./spec/post_usuarios_spec.rb" time="1.371265"></testcase>
+<testcase classname="spec.post_usuarios_spec" name="POST CADASTRO: Cadastra Usuários Cadastra novo usuários Validação do Nome" file="./spec/post_usuarios_spec.rb" time="0.547477"></testcase>
+<testcase classname="spec.post_usuarios_spec" name="POST CADASTRO: Cadastra Usuários Cadastra novo usuários Validação do e-mail" file="./spec/post_usuarios_spec.rb" time="0.550367"></testcase>
+<testcase classname="spec.post_usuarios_spec" name="POST CADASTRO: Cadastra Usuários Cadastra novo usuários Validação do telefone" file="./spec/post_usuarios_spec.rb" time="0.550385"></testcase>
+<testcase classname="spec.post_usuarios_spec" name="POST CADASTRO: Cadastra Usuários Cadastra novo usuários Validação da senha" file="./spec/post_usuarios_spec.rb" time="0.553404"></testcase>
+</testsuite>
